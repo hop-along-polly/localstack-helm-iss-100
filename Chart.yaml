@@ -1,0 +1,10 @@
+apiVersion: v2
+description: SampleApp
+engine: gotpl
+name: my-app
+version: 0.1.0
+dependencies:
+- name: localstack
+  alias: s3
+  version: 0.6.5
+  repository: https://localstack.github.io/helm-charts
